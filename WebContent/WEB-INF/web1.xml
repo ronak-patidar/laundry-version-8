@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>login</display-name>
+  <servlet>
+    <servlet-name>abs</servlet-name>
+    <servlet-class>Login_check_s</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>abs</servlet-name>
+    <url-pattern>/Login_check_s</url-pattern>
+  </servlet-mapping>
+
+<servlet>
+    <servlet-name>p</servlet-name>
+    <servlet-class>Logout</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>p</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+ 
+ <servlet>
+    <servlet-name>q</servlet-name>
+    <servlet-class>wash</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>q</servlet-name>
+    <url-pattern>/wash</url-pattern>
+  </servlet-mapping>
+ 
+  <servlet>
+    <servlet-name>r</servlet-name>
+    <servlet-class>clothes_servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>r</servlet-name>
+    <url-pattern>/clothes_servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>s</servlet-name>
+    <servlet-class>book_servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>s</servlet-name>
+    <url-pattern>/book_servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>t</servlet-name>
+    <servlet-class>Payment_servlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>t</servlet-name>
+    <url-pattern>/Payment_servlet</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>u</servlet-name>
+    <servlet-class>delete_order</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>u</servlet-name>
+    <url-pattern>/delete_order</url-pattern>
+  </servlet-mapping>
+ 
+ 
+</web-app>
